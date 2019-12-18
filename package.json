@@ -1,0 +1,33 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start -p $PORT",
+    "heroku-postbuild": "npm run build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/expression-media-digital-agency/exm-site-updateone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/expression-media-digital-agency/exm-site-updateone.git"
+  },
+  "homepage": "https://github.com/expression-media-digital-agency/exm-site-updateone#readme",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "@zeit/next-sass": "^1.0.1",
+    "animate.css": "^3.7.2",
+    "hover.css": "^2.3.2",
+    "next": "^9.0.7",
+    "node-sass": "^4.12.0",
+    "react": "^16.10.1",
+    "react-dom": "^16.10.1"
+  }
+}

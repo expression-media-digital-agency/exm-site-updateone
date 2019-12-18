@@ -1,0 +1,137 @@
+
+.acad-header{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color:  #502B5C;
+    margin-top: 70px;
+    .heading-one{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 50px
+
+    }
+    .paragraph-one{
+        font-size: 16px;
+        font-weight: 200px;
+        color: #ffffff
+    }
+
+    .stack-text{
+        font-size: 14px;
+        font-weight: 100px;
+        color: #ffffff
+    }
+
+}
+
+.section-backend{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color:  #ffffff;
+    .heading-one{
+        color: #000000;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 50px
+
+    }
+    .paragraph-one{
+        font-size: 16px;
+        font-weight: 200px;
+        color: #000000
+    }
+
+    .stack-text{
+        font-size: 14px;
+        font-weight: 100px;
+        color: #000000
+    }
+
+}
+
+.section-visual{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color:  #D4E157;
+    .heading-one{
+        color: #213859;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 50px
+
+    }
+    .paragraph-one{
+        font-size: 16px;
+        font-weight: 200px;
+        color: #213859;
+    }
+
+    .stack-text{
+        font-size: 14px;
+        font-weight: 100px;
+        color: #213859;
+    }
+
+}
+
+
+.section-product{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color:  #126EF6;
+    .heading-one{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 50px
+
+    }
+    .paragraph-one{
+        font-size: 16px;
+        font-weight: 200px;
+        color: #ffffff;
+    }
+
+    .stack-text{
+        font-size: 14px;
+        font-weight: 100px;
+        color: #ffffff;
+    }
+
+}
+
+.section-enroll{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color:   #2E3E49;
+   a{
+       text-decoration: none;
+       padding: 10px 40px;
+       color: white;
+       font-size: 16px;
+       font-weight: 200;
+       background-color: #126EF6;
+       border: none;
+       border-radius: 5px;
+
+       &:hover{
+           opacity: 0.7;
+       }
+   }
+
+
+   .heading-one{
+       color: #ffffff;
+       font-size: 50px;
+       font-weight: bold
+   }
+
+   @media screen and (max-width: 768px){
+       .heading-one{
+           font-size: 45px;
+       }
+       
+   }
+
+}

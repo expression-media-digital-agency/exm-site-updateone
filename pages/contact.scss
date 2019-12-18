@@ -1,0 +1,117 @@
+
+.contact-header{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color:  #126EF6;
+    margin-top: 70px;
+    .heading-one{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 20px;
+        text-decoration: underline;
+
+    }
+    .heading-two{
+        color: #ffffff;
+        font-weight: bold;
+        font-size: 20px;
+        margin-bottom: 20px
+
+    }
+    .heading-three{
+        color: #ffffff;
+        font-weight: 400;
+        font-size: 16px;
+        margin-bottom: 20px
+
+    }
+    .paragraph-one{
+        font-size: 14px;
+        font-weight: 100px;
+        color: #ffffff
+    }
+
+
+    .contact-icons{
+        margin-right: 10px;
+    }
+    a {
+        text-decoration: none;
+    }
+
+    .btn-send{
+        background-color: #ffffff;
+        color: #252525;
+        font-size: 14px;
+        font-weight: 500;
+        padding: 10px 30px;
+        border: none;
+        border-radius: 10px;
+        
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+
+    @media screen and (max-width: 768px){
+        .heading-two{
+            text-align: center;
+        }
+        .heading-three{
+            text-align: center
+        }
+
+        .paragraph-one{
+            text-align: center
+        }
+        .social {
+            text-align: center;
+        }
+    }
+}
+
+.section-send{
+    padding-top: 200px;
+    padding-bottom: 200px;
+    background-color:  #ffffff;
+    .heading-one{
+        color:  #252525;
+        font-weight: bold;
+        font-size: 45px;
+        margin-bottom: 50px
+
+    }
+    .paragraph-one{
+        font-size: 16px;
+        font-weight: 200px;
+        color:  #252525;
+    }
+
+    .form-control{
+        border: 0.5px solid #126EF6;
+        border-radius: 0px;
+        font-size: 14px;
+
+    }
+
+    img{
+        width: 100px;
+    }
+
+    .btn-primary{
+        background-color: #126EF6;
+        border-radius: 10px;
+        color: white;
+        font-weight: 500;
+        font-size: 14px;
+        width: 100%;
+        padding: 10px 20px;
+        &:hover{
+            opacity: 0.8;
+        }
+    }
+
+   
+}
+
