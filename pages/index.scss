@@ -74,10 +74,7 @@
         img{
             height: 200px;
         }
-        &:nth-of-type(2) {
-            background: $color-blue;
-            color: $color-white;
-        }
+        
         &:hover {
             background: $color-blue;
             color: $color-white;

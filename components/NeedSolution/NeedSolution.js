@@ -4,7 +4,11 @@ const NeedSolution = () => (
     <section className="section-solution">
     <div className="container">
         <div className="row">
-            <div className="col-sm-12">
+            
+            <div className="col-sm-4 text-center">
+                <img src="/static/img/svg/anita.svg" alt="anita picture" className="img-fluid"/>
+            </div>
+            <div className="col-sm-8">
                 <h3 className="heading-three">Hi! I’m Anita.</h3>
                 <h1  className="heading-one">Need to Create a Solution?</h1>
                 <h2 className="heading-two">Let's discuss your next project</h2>
