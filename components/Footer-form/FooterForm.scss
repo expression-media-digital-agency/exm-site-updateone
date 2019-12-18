@@ -1,0 +1,34 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/base/typography';
+
+.footer-form{
+    button:hover{
+        text-decoration: none;
+        opacity: 0.8;
+        color: $color-white;
+    }
+    .input{
+        border: 1px solid rgba(41, 41, 41, 0.56);
+        box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+    }
+    .textarea{
+        border: none;
+        border-radius: 10px;
+    }
+    .btn-footer{
+        background-color: $color-yellow;
+        color: $color-black;
+        border-radius: $header-btn-border-radius;
+        padding: $header-btn-padding-tb $header-btn-padding-lr;
+        border: none;
+        font-style: $font-style-normal;
+        font-weight: $font-weight-500;
+        font-size: $header-btn-font-size;
+        line-height: 24px;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+}

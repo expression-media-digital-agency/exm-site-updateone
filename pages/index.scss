@@ -1,197 +1,138 @@
+@import '../styles/base/typography';
+@import '../styles/abstracts/variables';
 
+.header {
+    padding-top: $header-padding;
+    padding-bottom: $header-padding;
+    height: $header-height;
+    background-color: $color-white;
+    margin-top: $header-margin-top;
 
-
-
-body {
-    font-family: 'Be Vietnam', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-  }
-  
-  .header{
-      padding-top: 200px;
-      padding-bottom: 200px;
-      background-color: #126EF6;
-      margin-top: 70px;
-      a{
-        text-decoration: none
+    .small-text {
+        color: $color-black;
+        font-weight: $font-weight-300;
+        font-style: $font-style-normal;
+        font-size: $small-text-font-size;
     }
-      .header-text{
-          color: #ffffff;
-          font-weight: bold;
-          font-size: 35px;
-          margin-bottom: 50px
 
-      }
-
-      .header-btn{
-          background-color: #ffffff;
-          color: #126EF6;
-          font-size: 14px;
-          padding: 10px 30px;
-          border: none;
-          border-radius: 5px;
-          margin-bottom: 10px;
-          font-weight: 200;
-
-          &:hover{
-              opacity: 0.7;
-          }
-      }
-
-  }
-
-  .section-offer {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #213859;
-
-    .heading-one{
-        color: #ffffff;
+    .header-one {
+        padding-top: $header-text-padding-top;
+        color: $color-black-1;
         font-weight: bold;
-        font-size: 50px;
+        font-size: $heading-one-font-size;
+        font-style: $font-style-normal;
+        font-weight: $font-weight-500;
+        line-height: 58px;
+
     }
 
-    .paragraph-one{
-        color: #ffffff;
-        font-size: 16px;
-        font-weight: 200;
-        margin-top: 20px
-    }
+    .header-btn {
+        background-color: $color-yellow;
+        color: $color-black;
+        border-radius: $header-btn-border-radius;
+        padding: $header-btn-padding-tb $header-btn-padding-lr;
+        border: none;
+        font-style: $font-style-normal;
+        font-weight: $font-weight-500;
+        font-size: $header-btn-font-size;
+        line-height: 24px;
 
-   li{
-        list-style: none;
-        margin-top: 20px;
-           
-        a{
-            text-decoration: none;
-        }
-        .section-link{
-            color: #ffffff;
-            border-bottom: solid .5px #ffffff;
-            font-size: 16px;
-            padding-bottom: 10px;
-            
-        }
-        img{
-            padding-right: 15px;
-            width: 35px;
-        }
-        &:hover{
+        &:hover {
             opacity: 0.7;
         }
     }
-  }
 
-  .section-train {
-    padding-top: 120px;
-    padding-bottom: 160px;
-    background-color: #29B6F6;
+    .header-img {
+        height: $header-img-height;
+    }
 
-    .heading-two{
-        color: #213859;
+}
+
+.section-choose {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    background-color: $color-white;
+
+    .heading-two {
+        color: $color-black;
         font-weight: bold;
-        font-size: 40px;
+        padding-bottom: 20px;
+        font-style: $font-style-normal;
+        font-weight: $font-weight-500;
+        font-size: $heading-two-font-size;
+        line-height: 42px;
         margin-bottom: 50px;
     }
 
-    img{
-        margin-top: 20px;
-        margin-bottom: 20px
-    }
-
-    .paragraph-two{
-        color: #ffffff;
-        font-weight: 200;
-        font-size: 16px;
-        padding: 30px
-
-    }
-
-
-  }
-
-  .section-build {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #263238;
-
-    .heading-three{
-        color: #FFFFFF;
-        font-weight: bold;
-        font-size: 40px;
-        margin-bottom: 30px;
-    }
-
-    .paragraph-three{
-        color: #ffffff;
-        font-weight: 200;
-        font-size: 16px;
-
-    }
-
-  }
-
-  .section-decision {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #D4E157;
-
-    .heading-three{
-        color: #000000;
-        font-weight: bold;
-        font-size: 40px;
-        margin-bottom: 30px;
-    }
-
-    .paragraph-three{
-        color: #000000;
-        font-weight: 200;
-        font-size: 16px;
-
-    }
-    img {
-        width: 220px;
-    }
-
-  }
-
-  .section-contact {
-    padding-top: 200px;
-    padding-bottom: 200px;
-    background-color: #ffffff;
-
-    .heading-three{
-        color: #000000;
-        font-weight: bold;
-        font-size: 40px;
-        margin-bottom: 30px;
-    }
-
-    .paragraph-three{
-        color: #000000;
-        font-weight: 200;
-        font-size: 16px;
-
-    }
-    
-    .contact-btn{
-        background-color: #F16C7A;
-        color: #ffffff;
-        font-size: 14px;
-        padding: 10px 30px;
+    .card {
+        background: $color-white;
+        box-shadow: 0px 0px 20px rgba(211, 211, 211, 0.35);
+        border-radius: 10px;
+        padding: 40px 10px;
         border: none;
-        border-radius: 5px;
-        margin-bottom: 10px;
-        font-weight: 200;
+        color: $color-black;
+        img{
+            height: 200px;
+        }
+        &:nth-of-type(2) {
+            background: $color-blue;
+            color: $color-white;
+        }
+        &:hover {
+            background: $color-blue;
+            color: $color-white;
+            cursor: pointer;
 
-        &:hover{
-            opacity: 0.7;
+
         }
     }
 
-    a{
-        text-decoration: none;
+    .card-title {
+        font-style: normal;
+        font-weight: $font-weight-500;
+        font-size: 30px;
+        line-height: 36px;
+        text-align: center;
+        padding: 20px 0px;
+
     }
 
-  }
+    .card-text {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        text-align: center;
+
+    }
+
+}
+
+.section-offer {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    background-color: $color-white;
+
+    .heading-two {
+        color: $color-black;
+        font-weight: bold;
+        padding-bottom: 20px;
+        font-style: $font-style-normal;
+        font-weight: $font-weight-500;
+        font-size: $heading-two-font-size;
+        line-height: 42px;
+        margin-bottom: 50px;
+    }
+
+    .paragraph-one {
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 22px;
+        color: $color-black;
+        padding-top: 30px;
+    }
+
+
+}
+
