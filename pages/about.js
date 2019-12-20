@@ -48,7 +48,7 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                    Digital Solutions respond to the diverse business needs with cutting-edge technologies that allow us to delve into the digital transformation of our customers, always focusing on the transformation of the business processes and specific needs.
+                    Digital Solutions respond to the diverse business needs with cutting-edge technologies that allow us to delve into the digital transformation of our customers, always focusing on the transformation of the business processes and specific needs.<br/><br/>
                     Expression Media works to explore all the resources and digital trends that the market offers to develop your business through different IT solutions both cloud and on-premise: digitization of processes, web or mobile applications, collaborative environments and content management, among others.
                 </p>
             </div>
@@ -60,7 +60,7 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                These digital solutions allow companies and businesses to continue advancing on the path to digital transformation hence giving voice and visibility to their business.
+                These digital solutions allow companies and businesses to continue advancing on the path to digital transformation hence giving voice and visibility to their business.<br/><br/>
                 Our dynamic team is composed of different complementary profiles, strategists, developers, managers, creatives, all at the service of your company and we make a point of establishing a real relationship of trust with our customers.
                 </p>
             </div>
@@ -81,7 +81,8 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                Are you looking for a dynamic team that can transform your business into a digital solution that will make your audience and customers patronise the services you render? Look no further, for Expression Media has got you covered. At Expression Media, we utilise technologies to create, develop and integrate effective tools to serve your business. Our team puts its expertise at your disposal and offers a quality service to guide you, accompany you and to realize your business projects on all digital media.
+                Are you looking for a dynamic team that can transform your business into a digital solution that will make your audience and customers patronise the services you render? Look no further, for Expression Media has got you covered.<br/><br/>
+                At Expression Media, we utilise technologies to create, develop and integrate effective tools to serve your business. Our team puts its expertise at your disposal and offers a quality service to guide you, accompany you and to realize your business projects on all digital media.
                 </p>
             </div>
             <div className="col-sm-1"></div>
