@@ -1,6 +1,6 @@
 const withCSS = require("@zeit/next-css");
 const withSass = require("@zeit/next-sass");
-module.exports = withCSS({});
+
 
 function HACK_removeMinimizeOptionFromCssLoaders(config) {
     config.module.rules.forEach(rule => {

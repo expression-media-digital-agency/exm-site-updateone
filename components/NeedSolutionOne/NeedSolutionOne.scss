@@ -1,0 +1,62 @@
+@import '../../styles/base/typography';
+@import '../../styles/abstracts/variables';
+
+.section-solution {
+    padding-top: $section-padding;
+    padding-bottom: $section-padding;
+    background-color: $color-white;
+
+    .heading-three {
+        padding-top: $header-text-padding-top;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 30px;
+        line-height: 36px;
+        color: $color-black;
+    }
+
+    .heading-one{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 52px;
+        line-height: 62px;
+        color: $color-black;
+
+    }
+
+    .heading-two{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 30px;
+        line-height: 36px;
+        color: $color-black;
+
+    }
+
+    .paragraph-one {
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 31px;
+        color: $color-black;
+
+    }
+
+    .solution-btn{
+        background-color: $color-yellow;
+        color: $color-black;
+        border-radius: $header-btn-border-radius;
+        padding: $header-btn-padding-tb $header-btn-padding-lr;
+        border: none;
+        font-style: $font-style-normal;
+        font-weight: $font-weight-500;
+        font-size: $header-btn-font-size;
+        line-height: 24px;
+
+        &:hover {
+            opacity: 0.7;
+        }
+    }
+
+
+}

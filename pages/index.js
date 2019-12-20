@@ -45,21 +45,21 @@ const Index = () => <Layout>
 
             </div>
             <div className="card-deck">
-                <div className="card">
+                <div className="card hvr-grow">
                     <img src="/static/img/svg/brand.svg" className="card-img-top" alt="branding picture"/>
                     <div className="card-body">
                         <h3 className="card-title">Branding</h3>
                         <p className="card-text">Our team makes your communication beautiful and intelligible. We clarify your message. We give meaning to your brand. We solve complex problems, but we do it with style and simplicity.</p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card hvr-grow">
                     <img src="/static/img/svg/marketing1.svg" className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h3 className="card-title">Digital Marketing</h3>
                         <p className="card-text">We help you to implement a digital marketing strategy that adapts to your business, allowing you to connect and interact with your current and potential customers.</p>
                     </div>
                 </div>
-                <div className="card">
+                <div className="card hvr-grow">
                     <img src="/static/img/svg/softdev1.svg" className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h3 className="card-title">Web Development</h3>
