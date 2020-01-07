@@ -13,7 +13,9 @@
             background: linear-gradient(218.13deg, #3AA4FD 19.27%, #0F79D1 125.94%) ;
             border-radius: 10px;
             .heading-one {
-                padding-bottom: 60px;
+                padding-bottom: 20px;
+                padding-top: 20px;
+
                 font-style: normal;
                 font-weight: $font-weight-500;
                 font-size: 25px;
@@ -23,11 +25,41 @@
                 color: $color-white;
             }
 
-            p {
-                font-size: 14px;
-                font-weight: 500;
+            .heading-two {
+                padding-top: 10px;
+                padding-bottom: 20px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 24px;
+                align-items: center;
+                text-align: center;
                 color: $color-white;
             }
+
+            .paragraph {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 22px;
+                color: $color-white;
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+            .icons{
+                margin-top: 10px;
+                text-align: center;
+                list-style: none;
+                span{
+                  margin-right: 20px;
+                  img{
+                    width: 20px;
+                    height: 20px;
+                  }
+                }
+              }
         }
 
         .form-right-side {
