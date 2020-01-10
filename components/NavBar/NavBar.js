@@ -8,14 +8,19 @@ const NavBar = () => (
       <Link href="/">
         <a className="navbar-brand" href="#"><img className="logo img-fluid" src="/static/img/svg/logo1.svg"/></a>
       </Link>
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span className="fas fa-bars"></span>
-      </button>
+      </button> */}
+      <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span> </span>
+              <span> </span>
+              <span> </span>
+            </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-auto">
           <li className="nav-item active">
-            <Link href="/works">
-              <a className="nav-link">Works </a>
+            <Link href="/">
+              <a className="nav-link">Home </a>
             </Link>
           </li>
           <li className="nav-item">
