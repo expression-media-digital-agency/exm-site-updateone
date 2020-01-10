@@ -22,8 +22,10 @@ const Index = () => <Layout>
             <h1 className="header-one">
             We create quality Brand experience, and satisfaction. <br/>
             
-            <span className="small-text">Passion. Innovation. Creativity.</span>
             </h1>
+
+            <p className="small-text">Passion. Innovation. Creativity.</p>
+
 
             <Link href="/work">
                 <a className="header-btn">

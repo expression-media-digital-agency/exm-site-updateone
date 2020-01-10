@@ -1,5 +1,7 @@
 @import '../styles/base/typography';
 @import '../styles/abstracts/variables';
+@import '../styles/abstracts/mixins';
+
 
 .header {
     padding-top: $header-padding;
@@ -13,6 +15,10 @@
         font-weight: $font-weight-300;
         font-style: $font-style-normal;
         font-size: $small-text-font-size;
+        @include respond(phone) {
+            margin-top: 40px;   
+
+        }
     }
 
     .header-one {
@@ -23,6 +29,12 @@
         font-style: $font-style-normal;
         font-weight: $font-weight-500;
         line-height: 58px;
+        @include respond(phone) {
+            padding-top:30px;
+            font-size: 40px;
+            line-height: 50px;  
+
+        }
 
     }
 
@@ -36,7 +48,10 @@
         font-weight: $font-weight-500;
         font-size: $header-btn-font-size;
         line-height: 24px;
+        @include respond(phone) {
+            margin-top: 50px;
 
+        }
         &:hover {
             opacity: 0.7;
         }
@@ -44,6 +59,10 @@
 
     .header-img {
         height: $header-img-height;
+        @include respond(phone) {
+            padding-top:60px;
+
+        }
     }
 
 }
@@ -62,6 +81,10 @@
         font-size: $heading-two-font-size;
         line-height: 42px;
         margin-bottom: 50px;
+        @include respond(phone) {
+            margin-top:350px;
+
+        }
     }
 
     .card {
