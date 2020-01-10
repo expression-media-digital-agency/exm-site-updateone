@@ -9,8 +9,7 @@ const ContactForm = () => (
                                 Contact Information
                             </h1>
 
-                            <p className="paragraph"><img className="img-fluid pr-3" src="/static/img/svg/location.svg"/> Gibson House, No 12
-Flatten building, Ile Ife.</p>
+                            {/* <p className="paragraph"><img className="img-fluid pr-3" src="/static/img/svg/location.svg"/> Gibson House, No 12 Flatten building, Ile Ife.</p> */}
                             <p className="paragraph"><img className="img-fluid pr-3" src="/static/img/svg/message.svg"/> info@exmediaagency.com</p>
                             <p className="paragraph"><img className="img-fluid pr-3" src="/static/img/svg/whatsapp.svg"/> +234(0) 81 4945 6123</p>
 
@@ -52,7 +51,7 @@ Flatten building, Ile Ife.</p>
                                     </div>
                                 </div>
                                 <div className="text-right">
-                                    <button type="submit" className="btn btn-contact">Send</button>
+                                    <button type="submit" className="btn btn-contact hvr-grow-shadow">Send</button>
                                 </div>
                             </form>
                         </div>

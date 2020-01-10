@@ -21,18 +21,18 @@ const About = () => <Layout>
        <div className="row">
         
         <div className="col-sm-8">
-            <h3 className="heading-three">
+            <h3 className="heading-three animated fadeIn delay-1s">
                 Meet Ben & Anita
             </h3>
-            <h1 className="heading-one">
+            <h1 className="heading-one animated fadeIn delay-2s">
                 Get to know us
             </h1>
-           <p className="paragraph-one">
+           <p className="paragraph-one animated fadeIn delay-3s">
                 Your success becomes our story
            </p>
         </div>
 
-        <div className="col-sm-4 header-img">
+        <div className="col-sm-4 header-img animated fadeIn delay-2s">
             <img src="/static/img/svg/ben-anita.svg" alt="ben-anita picture" className="img-fluid"/>
         </div>
        </div>

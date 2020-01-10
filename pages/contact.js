@@ -18,15 +18,15 @@ const Academy = () => <Layout>
 <header className="contact-header">
     <div className="container">
        <div className="row">
-            <div className="col-sm-4">
-                <img src="/static/img/svg/ben1.svg" alt="ben-anita picture" className="img-fluid"/>
+            <div className="col-sm-4 ">
+                <img src="/static/img/svg/ben1.svg" alt="ben-anita picture" className="img-fluid animated fadeIn delay-1s"/>
             </div>
             <div className="col-sm-2"></div>
             <div className="col-sm-6">
-                <h1 className="heading-one">
+                <h1 className="heading-one animated fadeIn delay-2s">
                 Hi! It’s Ben again
                 </h1>
-                <p className="paragraph-one">
+                <p className="paragraph-one animated fadeIn delay-3s">
                 Expression Media also called “ExM”, partners with businesses and organizations to assist them focus on the core of their businesses. 
                 </p>
             </div>

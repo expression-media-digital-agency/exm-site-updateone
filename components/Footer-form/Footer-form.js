@@ -12,7 +12,7 @@ const FooterForm = () =>  (
                 <textarea className="form-control textarea" id="message" rows="5" placeholder="Your message here..."></textarea>
                 </div>
                 <div className="float-right">
-                    <button type="submit" className="btn btn-footer">Send</button>
+                    <button type="submit" className="btn btn-footer hvr-grow-shadow">Send</button>
                 </div>
             </form>
         </div>

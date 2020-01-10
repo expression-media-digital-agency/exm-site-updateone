@@ -1,6 +1,6 @@
 @import '../styles/base/typography';
 @import '../styles/abstracts/variables';
-@import '../styles/base/utilities';
+@import '../styles/abstracts/mixins';
 
 .about-header{
     padding-top: $header-padding;
@@ -15,7 +15,8 @@
         font-size: 80px;
         line-height: 96px;
         color: $color-black-1;
-        @include respond(phone) {
+        margin: 0px;
+    @include respond(phone) {
         line-height: 86px;
         font-size: 70px;
            
@@ -41,6 +42,7 @@
         font-size: 30px;
         line-height: 36px;
         color: $color-black;
+        padding-top: 5px;
     }
 
     .header-img{

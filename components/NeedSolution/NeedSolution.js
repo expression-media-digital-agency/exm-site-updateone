@@ -13,8 +13,8 @@ const NeedSolution = () => (
                 <h1  className="heading-one">Need to Create a Solution?</h1>
                 <h2 className="heading-two">Let's discuss your next project</h2>
                 <p className="paragraph-one mb-5">Our team of creatives are ready to help, just a click away to get started.</p>
-                <Link href="/work">
-                    <a className="solution-btn">
+                <Link href="/contact">
+                    <a className="solution-btn hvr-grow-shadow">
                         Hire Us!
                     </a>
                 </Link>

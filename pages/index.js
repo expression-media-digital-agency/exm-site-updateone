@@ -3,6 +3,7 @@ import  Head from 'next/head'
 import './index.scss'
 import Link from "next/link";
 import NeedSolution from "../components/NeedSolution/NeedSolution";
+import 'normalize.css'
 
 const Index = () => <Layout>
 <Head>
@@ -19,21 +20,21 @@ const Index = () => <Layout>
     <div className="container">
        <div className="row">
         <div className="col-sm-8">
-            <h1 className="header-one">
+            <h1 className="header-one animated fadeIn delay-1s">
             We create quality Brand experience, and satisfaction.
             
             </h1>
  
-            <p className="small-text">Passion. Innovation. Creativity.</p>
+            <p className="small-text animated fadeIn delay-2s">Passion. Innovation. Creativity.</p>
 
 
-            <Link href="/work">
-                <a className="header-btn">
+            <Link href="/contact">
+                <a className="header-btn hvr-grow-shadow animated fadeInUp delay-3s" >
                 Hire Us!
                 </a>
             </Link>
         </div>
-        <div className="col-sm-4 ">
+        <div className="col-sm-4 animated fadeIn delay-2s">
             <img src="/static/img/svg/ben.svg" alt="ben picture" className="img-fluid header-img"/>
         </div>
        </div>

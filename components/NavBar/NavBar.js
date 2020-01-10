@@ -3,14 +3,12 @@ import './NavBar.scss'
 import Link from 'next/link'
 
 const NavBar = () => (
-    <nav className="navbar navbar-expand-lg fixed-top">
+    <nav className="navbar navbar-expand-lg fixed-top animated fadeInDown delay-1s">
     <div className="container">
       <Link href="/">
-        <a className="navbar-brand" href="#"><img className="logo img-fluid" src="/static/img/svg/logo1.svg"/></a>
+        <a className="navbar-brand animated fadeInLeft delay-1s" href="#"><img className="logo img-fluid" src="/static/img/svg/logo1.svg"/></a>
       </Link>
-      {/* <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="fas fa-bars"></span>
-      </button> */}
+      
       <button className="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
               <span> </span>
               <span> </span>
