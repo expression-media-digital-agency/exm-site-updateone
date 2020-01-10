@@ -32,7 +32,7 @@ const About = () => <Layout>
            </p>
         </div>
 
-        <div className="col-sm-4">
+        <div className="col-sm-4 header-img">
             <img src="/static/img/svg/ben-anita.svg" alt="ben-anita picture" className="img-fluid"/>
         </div>
        </div>

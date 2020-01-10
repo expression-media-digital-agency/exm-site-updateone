@@ -1,8 +1,15 @@
 @import '../../styles/abstracts/variables';
 @import '../../styles/base/typography';
+@import '../../styles/abstracts/mixins';
 
 .contact-form {
     margin-bottom: 200px;
+    @include respond(phone) {
+        margin-top: 450px;
+            
+ 
+     }
+
     .container {
         -webkit-box-shadow: 0px 0px 20px rgba(98, 98, 98, 0.2);
         -moz-box-shadow: 0px 0px 20px rgba(98, 98, 98, 0.2);

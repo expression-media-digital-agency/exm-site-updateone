@@ -20,7 +20,7 @@ const Index = () => <Layout>
        <div className="row">
         <div className="col-sm-8">
             <h1 className="header-one">
-            We create quality Brand experience, and satisfaction. <br/>
+            We create quality Brand experience, and satisfaction.
             
             </h1>
  

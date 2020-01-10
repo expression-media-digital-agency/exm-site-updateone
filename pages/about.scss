@@ -15,6 +15,12 @@
         font-size: 80px;
         line-height: 96px;
         color: $color-black-1;
+        @include respond(phone) {
+        line-height: 86px;
+        font-size: 70px;
+           
+
+        }
     }
 
     .heading-three{
@@ -24,6 +30,10 @@
         font-size: 30px;
         line-height: 36px;
         color: $color-black-1;
+        @include respond(phone) {
+            margin-top:20px;
+
+        }
     }
     .paragraph-one{
         font-style: normal;
@@ -32,12 +42,23 @@
         line-height: 36px;
         color: $color-black;
     }
+
+    .header-img{
+        @include respond(phone) {
+            padding-top:60px;
+
+        }
+    }
  
 
 }
 
 .section-about{
     background-color: $color-white;
+    @include respond(phone) {
+        margin-top: 500px;
+
+    }
     .contents{
         padding-top: $header-padding;
         padding-bottom: $header-padding;

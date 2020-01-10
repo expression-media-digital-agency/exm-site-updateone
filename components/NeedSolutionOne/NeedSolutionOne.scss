@@ -1,5 +1,6 @@
 @import '../../styles/base/typography';
 @import '../../styles/abstracts/variables';
+@import '../../styles/abstracts/mixins';
 
 .section-solution {
     padding-top: $section-padding;
@@ -21,6 +22,11 @@
         font-size: 52px;
         line-height: 62px;
         color: $color-black;
+        @include respond(phone) {
+            font-size: 42px;
+
+        }
+
 
     }
 
