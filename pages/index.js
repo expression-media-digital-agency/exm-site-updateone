@@ -23,7 +23,7 @@ const Index = () => <Layout>
             We create quality Brand experience, and satisfaction. <br/>
             
             </h1>
-
+ 
             <p className="small-text">Passion. Innovation. Creativity.</p>
 
 
