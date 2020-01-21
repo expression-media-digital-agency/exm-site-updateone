@@ -13,6 +13,7 @@
     @include respond(phone) {
         padding-top: 40px;
         padding-bottom: 40px;  
+        margin-top: 50px;
 
     } 
     
@@ -97,7 +98,7 @@
 
     }
     @include respond(tab-port) {
-        margin-top: 300px;
+        margin-top: 160px;
 
     }  
     .heading-two {
@@ -157,7 +158,12 @@
     padding-top: $section-padding;
     padding-bottom: $section-padding;
     background-color: $color-white;
+    img{
+        @include respond(phone) {
+            margin-top:60px;
 
+        }
+    }
     .heading-two {
         color: $color-black;
         font-weight: bold;
