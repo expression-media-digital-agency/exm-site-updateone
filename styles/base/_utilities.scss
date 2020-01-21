@@ -4,3 +4,14 @@
 .no-padding{
     padding:0px
 }
+
+.center-pics{
+    @include respond(phone) {
+        text-align: center;   
+
+    }
+    @include respond(tab-port) {
+        text-align: center;   
+
+    }
+}

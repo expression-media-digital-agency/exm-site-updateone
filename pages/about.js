@@ -20,7 +20,7 @@ const About = () => <Layout>
     <div className="container">
        <div className="row">
         
-        <div className="col-sm-8">
+        <div className="col-sm-12 col-lg-8">
             <h3 className="heading-three animated fadeIn delay-1s">
                 Meet Ben & Anita
             </h3>
@@ -32,7 +32,7 @@ const About = () => <Layout>
            </p>
         </div>
 
-        <div className="col-sm-4 header-img animated fadeIn delay-2s">
+        <div className=" col-sm-12 col-lg-4 header-img animated fadeIn delay-2s">
             <img src="/static/img/svg/ben-anita.svg" alt="ben-anita picture" className="img-fluid"/>
         </div>
        </div>

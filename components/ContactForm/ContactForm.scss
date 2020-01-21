@@ -5,7 +5,13 @@
 .contact-form {
     margin-bottom: 200px;
     @include respond(phone) {
-        margin-top: 450px;
+        margin-top: 250px;
+            
+ 
+     }
+
+     @include respond(tab-port) {
+        margin-top: 250px;
             
  
      }

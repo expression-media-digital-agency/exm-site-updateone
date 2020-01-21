@@ -18,11 +18,11 @@ const Academy = () => <Layout>
 <header className="contact-header">
     <div className="container">
        <div className="row">
-            <div className="col-sm-4 ">
+            <div className=" col-sm-12 col-lg-4 center-pics">
                 <img src="/static/img/svg/ben1.svg" alt="ben-anita picture" className="img-fluid animated fadeIn delay-1s"/>
             </div>
-            <div className="col-sm-2"></div>
-            <div className="col-sm-6">
+            <div className="col-sm-12 col-lg-2"></div>
+            <div className="col-sm-12 col-lg-6">
                 <h1 className="heading-one animated fadeIn delay-2s">
                 Hi! It’s Ben again
                 </h1>
