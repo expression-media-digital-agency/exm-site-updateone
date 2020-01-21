@@ -19,7 +19,7 @@ const Index = () => <Layout>
 <header className="header">
     <div className="container">
        <div className="row">
-        <div className="col-sm-8">
+        <div className="col-sm-12 col-lg-8">
             <h1 className="header-one animated fadeIn delay-1s">
             We create quality Brand experience, and satisfaction.
             
@@ -34,8 +34,11 @@ const Index = () => <Layout>
                 </a>
             </Link>
         </div>
-        <div className="col-sm-4 animated fadeIn delay-2s">
+        <div className="col-sm-12 col-lg-2 center-pics animated fadeIn delay-2s ">
             <img src="/static/img/svg/ben.svg" alt="ben picture" className="img-fluid header-img"/>
+        </div>
+        <div className="col-sm-12 col-lg-2 center-pics animated fadeIn delay-2s ">
+            <img src="/static/img/svg/homepics.svg" alt="home picture" className="home-pics img-fluid"/>
         </div>
        </div>
     </div>    

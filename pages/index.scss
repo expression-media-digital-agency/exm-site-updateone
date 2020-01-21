@@ -9,6 +9,33 @@
     height: $header-height;
     background-color: $color-white;
     margin-top: $header-margin-top;
+    @include respond(phone) {
+        padding-top: 40px;
+        padding-bottom: 40px;  
+
+    } 
+
+    .center-pics{
+        @include respond(phone) {
+            text-align: center;   
+
+        }
+        @include respond(tab-port) {
+            text-align: center;   
+
+        }
+    }
+    
+    .home-pics{
+        @include respond(phone) {
+            display: none;   
+
+        }  
+        @include respond(tab-port) {
+            display: none;   
+
+        }  
+    }
 
     .small-text {
         color: $color-black;
@@ -20,7 +47,7 @@
 
         }
     }
-
+    
     .header-one {
         padding-top: $header-text-padding-top;
         color: $color-black-1;
@@ -48,7 +75,7 @@
         font-size: $header-btn-font-size;
         line-height: 24px;
         @include respond(phone) {
-            margin-top: 50px;
+            margin-top: 30px;
 
         }
         &:hover {
@@ -62,6 +89,11 @@
             padding-top:60px;
 
         }
+        @include respond(tab-port) {
+            padding-top:60px;
+   
+        }  
+
     }
 
 }
@@ -71,9 +103,13 @@
     padding-bottom: $section-padding;
     background-color: $color-white;
     @include respond(phone) {
-        margin-top: 500px;
+        margin-top: 300px;
 
     }
+    @include respond(tab-port) {
+        margin-top: 300px;
+
+    }  
     .heading-two {
         color: $color-black;
         font-weight: bold;
