@@ -75,7 +75,7 @@
     }
 
     .header-img {
-        height: $header-img-height;
+        padding-top: 10px;
         @include respond(phone) {
             padding-top:60px;
 
