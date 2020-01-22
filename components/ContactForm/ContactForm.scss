@@ -1,0 +1,107 @@
+@import '../../styles/abstracts/variables';
+@import '../../styles/base/typography';
+@import '../../styles/abstracts/mixins';
+
+.contact-form {
+    margin-bottom: 200px;
+    @include respond(phone) {
+        margin-top: 250px;
+            
+ 
+     }
+
+     @include respond(tab-port) {
+        margin-top: 250px;
+            
+ 
+     }
+
+    .container {
+        -webkit-box-shadow: 0px 0px 20px rgba(98, 98, 98, 0.2);
+        -moz-box-shadow: 0px 0px 20px rgba(98, 98, 98, 0.2);
+        box-shadow: 0px 0px 20px rgba(98, 98, 98, 0.2);
+        border-radius: 5px;
+        .form-left-side {
+            padding: 50px;
+            background: linear-gradient(218.13deg, #3AA4FD 19.27%, #0F79D1 125.94%) ;
+            border-radius: 10px;
+            .heading-one {
+                padding-bottom: 20px;
+                padding-top: 20px;
+
+                font-style: normal;
+                font-weight: $font-weight-500;
+                font-size: 25px;
+                line-height: 30px;
+                align-items: center;
+                text-align: center;
+                color: $color-white;
+            }
+
+            .heading-two {
+                padding-top: 10px;
+                padding-bottom: 20px;
+                font-style: normal;
+                font-weight: normal;
+                font-size: 20px;
+                line-height: 24px;
+                align-items: center;
+                text-align: center;
+                color: $color-white;
+            }
+
+            .paragraph {
+                font-style: normal;
+                font-weight: normal;
+                font-size: 14px;
+                line-height: 22px;
+                color: $color-white;
+                img{
+                    width: 35px;
+                    height: 35px;
+                }
+            }
+            .icons{
+                margin-top: 10px;
+                text-align: center;
+                list-style: none;
+                span{
+                  margin-right: 20px;
+                  img{
+                    width: 20px;
+                    height: 20px;
+                  }
+                }
+              }
+        }
+
+        .form-right-side {
+            background-color: $color-white;
+            padding: 50px;
+            border-radius: 10px;
+
+        }
+
+        .form-control {
+            border: none;
+            border-radius: 0px;
+            border-bottom: 1px solid $color-grey;
+        }
+
+        .btn-contact{
+            background-color: $color-blue;
+            color: $color-white;
+            border-radius: $header-btn-border-radius;
+            padding: $header-btn-padding-tb $header-btn-padding-lr;
+            border: none;
+            font-style: $font-style-normal;
+            font-weight: $font-weight-500;
+            font-size: $header-btn-font-size;
+            line-height: 24px;
+    
+            &:hover {
+                opacity: 0.7;
+            } 
+        }
+    }
+}

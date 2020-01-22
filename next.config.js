@@ -1,22 +1,14 @@
 const withCSS = require("@zeit/next-css");
 const withSass = require("@zeit/next-sass");
-module.exports = withCSS({});
+const withPlugins = require('next-compose-plugins');
 
-function HACK_removeMinimizeOptionFromCssLoaders(config) {
-    config.module.rules.forEach(rule => {
-      if (Array.isArray(rule.use)) {
-        rule.use.forEach(u => {
-          if (u.loader === 'css-loader' && u.options) {
-            delete u.options.minimize;
-          }
-        });
-      }
-    });
-  }
-  
-  module.exports = withSass({
-    webpack(config) {
-      HACK_removeMinimizeOptionFromCssLoaders(config);
+
+module.exports = withPlugins([withCSS, withSass], {
+  webpack(config, options) {
+      config.module.rules.push({
+          test: /\.md$/,
+          use: 'raw-loader',
+      });
       return config;
-    },
-  });
+  },
+});

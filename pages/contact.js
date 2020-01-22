@@ -2,10 +2,11 @@ import Layout from "../components/Layout/Layout";
 import  Head from 'next/head'
 import './contact.scss'
 import Link from "next/link";
+import ContactForm from "../components/ContactForm/ContactForm";
 
 const Academy = () => <Layout>
 <Head>
-    <title>iCode Hub | Contact Us</title>
+    <title>EXM | Contact Us</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous"></link>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossOrigin="anonymous"></link>
@@ -17,107 +18,25 @@ const Academy = () => <Layout>
 <header className="contact-header">
     <div className="container">
        <div className="row">
+            <div className=" col-sm-12 col-lg-4 center-pics">
+                <img src="/static/img/svg/ben1.svg" alt="ben-anita picture" className="img-fluid animated fadeIn delay-1s"/>
+            </div>
+            <div className="col-sm-12 col-lg-2"></div>
+            <div className="col-sm-12 col-lg-6">
+                <h1 className="heading-one animated fadeIn delay-2s">
+                Hi! It’s Ben again
+                </h1>
+                <p className="paragraph-one animated fadeIn delay-3s">
+                Expression Media also called “ExM”, partners with businesses and organizations to assist them focus on the core of their businesses. 
+                </p>
+            </div>
 
-        <div className="col-sm-12 text-center pb-5">
-            <h1 className="heading-one">
-            Contact Us
-            </h1>
-        </div>
+
        </div>
-       <div className="row">
-           <div className="col-sm-4">
-                <h2 className="heading-two pb-4">
-                Contact Us On <br/> Social Media
-                </h2>
-
-                <div className="pb-5 social">
-                    <span className="contact-icons"> <a href=""> <img src="/static/img/png/contactinstagram.png"/> </a> </span>
-                    <span className="contact-icons"> <a href="https://twitter.com/icodehub" target="blank"> <img src="/static/img/png/contacttwitter.png"/> </a> </span>
-                    <span className="contact-icons"> <a href=""> <img src="/static/img/png/contactlinkedin.png"/> </a> </span>
-                    
-                </div>
-           </div>
-           <div className="col-sm-4 pb-5 text-center">
-                <h2 className="heading-two  pb-5">
-                <i class="fas fa-map-marker-alt"></i>  Ile-Ife, Osun State.
-                </h2>
-                <a className="btn-send" href="#send-form">
-                Send a message
-                </a>
-           </div>
-           <div className="col-sm-4">
-            <h2 className="heading-two">
-            +234 703 036 0670 <br/>
-            +234 814 726 1224
-            </h2>
-            <h3 className="heading-three">
-                Email:
-            </h3>
-            <p className="paragraph-one">
-                info@icodeinnovationhub.com <br/>
-                academy@icodeinnovationhub.com
-            </p>
-           </div>
-       </div>   
     </div> 
 </header>
 
-<section id="send-form" className="section-send">
-    <div className="container">
-        <div className="row">
-           
-
-            <div className="col-sm-6">
-            <h1 className="heading-one">
-            Send Message
-            </h1>
-
-           <p className="paragraph-one">
-
-           Hope fully by now you had a good look around and if you think that we can work together and achieve what you are looking for, use the form below to drop us an email.          
-            </p>
-            <img className="img-fluid" src="/static/img/svg/email us.svg"/>
-
-            </div>
-            <div className="col-sm-2 pb-5"></div>
-
-            <div className="col-sm-4">
-            <form >
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                    <label className="d-none" for="firstname">Firstname</label>
-                    <input type="text" class="form-control" id="fistname" placeholder="First Name"/>
-                    </div>
-                    <div class="form-group col-md-6">
-                    <label className="d-none" for="lastname">Last Name</label>
-                    <input type="text" class="form-control" id="lastname" placeholder="Last Name"/>
-                    </div>
-                </div>
-                <div class="form-row">
-                    <div class="form-group col-md-6">
-                    <label className="d-none" for="companyname">Company Name</label>
-                    <input type="text" class="form-control" id="companyname" placeholder="Company Name"/>
-                    </div>
-                    <div class="form-group col-md-6">
-                    <label className="d-none" for="phone">Phone Number</label>
-                    <input type="tel" class="form-control" id="phonenumber" placeholder="Phone Number"/>
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label className="d-none" for="email">Email</label>
-                    <input type="email" class="form-control" id="email" placeholder="Email"/>
-                </div>
-                <div class="form-group">
-                    <label className="d-none" for="message">Message</label>
-                    <textarea rows="5" class="form-control" id="message" placeholder="Message"/>
-                </div>
-                <button type="submit" class="btn btn-primary">Send message</button>
-            </form>
-            
-            </div>
-        </div>
-    </div>
-</section>
+    <ContactForm/>
 </Layout>;
 
 export default Academy;

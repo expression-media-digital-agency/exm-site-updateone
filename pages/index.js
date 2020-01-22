@@ -2,10 +2,12 @@ import Layout from "../components/Layout/Layout";
 import  Head from 'next/head'
 import './index.scss'
 import Link from "next/link";
+import NeedSolution from "../components/NeedSolution/NeedSolution";
+import 'normalize.css'
 
 const Index = () => <Layout>
 <Head>
-    <title>iCode Hub | Home</title>
+    <title>EXM | Home</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport"/>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous"></link>
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossOrigin="anonymous"></link>
@@ -17,145 +19,118 @@ const Index = () => <Layout>
 <header className="header">
     <div className="container">
        <div className="row">
-        <div className="col-sm-5 pb-5">
-            <p className="header-text">
-                We take you on the shortest journey to learn what matters.
-            </p>
+        <div className="col-sm-12 col-lg-8">
+            <h1 className="header-one animated fadeIn delay-1s">
+            We create quality Brand experience, and satisfaction.
+            
+            </h1>
+ 
+            <p className="small-text animated fadeIn delay-2s">Passion. Innovation. Creativity.</p>
 
-            <Link href="/academy">
-                <a className="header-btn">
-                    Learn more
+
+            <Link href="/contact">
+                <a className="header-btn hvr-grow-shadow animated fadeInUp delay-3s" >
+                Hire Us!
                 </a>
             </Link>
         </div>
-        <div className="col-sm-3"></div>
-        <div className="col-sm-4">
-            <img src="/static/img/svg/goal.svg" alt="" className="img-fluid"/>
-            <img src=""/>
+        <div className="col-sm-12 col-lg-2 center-pics animated fadeIn delay-2s ">
+            <img src="/static/img/svg/ben.svg" alt="ben picture" className="img-fluid header-img"/>
+        </div>
+        <div className="col-sm-12 col-lg-2 center-pics animated fadeIn delay-2s ">
+            <img src="/static/img/svg/homepics.svg" alt="home picture" className="home-pics img-fluid"/>
         </div>
        </div>
     </div>    
 </header>
+<section className="section-choose">
+    <div className="container">
+        <div className="row">
+            <div className="col-sm-12">
+            <h2 className="heading-two text-center">Why Choose Us?</h2>
+
+            </div>
+            <div className="card-deck">
+                <div className="card hvr-grow">
+                    <img src="/static/img/svg/brand.svg" className="card-img-top" alt="branding picture"/>
+                    <div className="card-body">
+                        <h3 className="card-title">Branding</h3>
+                        <p className="card-text">Our team makes your communication beautiful and intelligible. We clarify your message. We give meaning to your brand. We solve complex problems, but we do it with style and simplicity.</p>
+                    </div>
+                </div>
+                <div className="card hvr-grow">
+                    <img src="/static/img/svg/marketing1.svg" className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <h3 className="card-title">Digital Marketing</h3>
+                        <p className="card-text">We help you to implement a digital marketing strategy that adapts to your business, allowing you to connect and interact with your current and potential customers.</p>
+                    </div>
+                </div>
+                <div className="card hvr-grow">
+                    <img src="/static/img/svg/softdev1.svg" className="card-img-top" alt="..."/>
+                    <div className="card-body">
+                        <h3 className="card-title">Web Development</h3>
+                        <p className="card-text">Our team takes the time to draw the contours of your software to ensure ergonomics and a successful user experience. All these using the latest trends in software development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
 <section className="section-offer">
     <div className="container">
         <div className="row">
-            <div className="col-sm-5">
-                <h1 className="heading-one">
-                    What we offer
-                </h1>
-                <p className="paragraph-one">
-                We design our courses to focus on what you need, it won’t take you months before you start building, just weeks.
-                </p>
-            </div>
-            <div className="col-sm-3"></div>
-            <div className="col-sm-4">
-                <li><Link href="/academy"><a className="section-link"><img className="img-fluid" src="/static/img/png/frontend.png"/>Front-end Development</a></Link></li>
-                <li><Link href="/academy"><a className="section-link"><img className="img-fluid" src="/static/img/png/backend.png"/>Back-end Development</a></Link></li>
-                <li><Link href="/academy"><a className="section-link"><img className="img-fluid" src="/static/img/png/graphic.png"/>Visual/Graphic Design</a></Link></li>
-                <li><Link href="/academy"><a className="section-link"><img className="img-fluid" src="/static/img/png/prod.png"/>Product Design</a></Link></li>
-                    
-            </div>
-
-
-        </div>
-    </div>
-</section>
-<section className="section-train">
-    <div className="container">
-                <img src=""/>
-        <div className="row">
             <div className="col-sm-12">
                 <h2 className="heading-two text-center">
-                    Why you should train with us?
+                    What we offer
                 </h2>
             </div>
+        </div>
+        <div className="row">
             <div className="col-sm-4 text-center">
-                <img src="/static/img/svg/class.svg" className="img-fluid"/>
-                <p className="paragraph-two">
-                Pick from one of our courses interesting to you
-                </p>
-            </div>
-            <div className="col-sm-4 text-center">
-                <img src="/static/img/svg/teamwork.svg" className="img-fluid"/>
-                <p className="paragraph-two">
-                Make a team from among your colleagues
+                <img src="/static/img/svg/social-media 2.svg" className="img-fluid"/>
+                <p className="paragraph-one">
+                Social Media Marketing
                 </p>
             </div>
             <div className="col-sm-4 text-center">
-                <img src="/static/img/svg/start-up.svg" className="img-fluid"/>
-                <p className="paragraph-two">
-                Work on your idea to form a startup or join us
+                <img src="/static/img/svg/seo 1.svg" className="img-fluid"/>
+                <p className="paragraph-one">
+                SEO Page Building
+                </p>
+            </div>
+            <div className="col-sm-4 text-center">
+                <img src="/static/img/svg/analysis 1.svg" className="img-fluid"/>
+                <p className="paragraph-one">
+                Analytics & Tracking
                 </p>
             </div>
 
+        </div>
+        <div className="row pt-5">
+            <div className="col-sm-4 text-center">
+                <img src="/static/img/svg/Web development 1.svg" className="img-fluid"/>
+                <p className="paragraph-one">
+                Web Design
+                </p>
+            </div>
+            <div className="col-sm-4 text-center">
+                <img src="/static/img/svg/contentM.svg"  className="img-fluid"/>
+                <p className="paragraph-one">
+                Content Marketing
+                </p>
+            </div>
+            <div className="col-sm-4 text-center">
+                <img src="/static/img/svg/Cross-Platform.svg" className="img-fluid"/>
+                <p className="paragraph-one">
+                Cross-platform Advertising
+                </p>
+            </div>
 
         </div>
     </div>
 </section>
-<section className="section-build">
-    <div className="container">
-        <div className="row">
-            
-            <div className="col-sm-6 pb-5">
-                <h3 className="heading-three">
-                We train you to build something great
-                </h3>
-                <p className="paragraph-three">
-                iCode Academy Specializes in series of courses that help you master a skill.
-                You can review our courses and choose the one you'd like to start with.
-                The training is 100% practical based.
-                </p>
-            </div>
-            <div className="col-sm-6 text-center">
-                <img className="img-fluid" src="/static/img/svg/build.svg"/>
-            </div>
-        </div>
-    </div>
-</section>
-<section className="section-decision">
-    <div className="container">
-        <div className="row">
-            
-            <div className="col-sm-6 pb-5">
-                <h3 className="heading-three">
-                Make all the decision
-                </h3>
-                <p className="paragraph-three">
-                We give all our trainees a month timeframe to decide whether they want to build their own start up OR
-                they intend working with us.
-                </p>
-            </div>
-            <div className="col-sm-6 text-center">
-                <img className="img-fluid" src="/static/img/svg/decision.svg"/>
-            </div>
-        </div>
-    </div>
-</section>
-<section className="section-contact">
-    <div className="container">
-        <div className="row">
-            
-            <div className="col-sm-6 pb-5">
-                <h3 className="heading-three">
-                Have any questions?
-                </h3>
-                
-                <p className="paragraph-three">
-                You can get across to us for more information.
-                </p>
-
-                <Link href="">
-                <a href="mailto:academy@icodeinnovationhub.com" target="blank" className="contact-btn">
-                   contact us
-                </a>
-                </Link>
-            </div>
-            <div className="col-sm-6 text-center mt-4">
-                <img className="img-fluid" src="/static/img/svg/contact-us.svg"/>
-            </div>
-        </div>
-    </div>
-</section>
+<NeedSolution/>
 </Layout>;
 
 export default Index;
