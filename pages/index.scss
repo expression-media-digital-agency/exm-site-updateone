@@ -17,10 +17,7 @@
         margin-top: 50px;
         margin-bottom: 100px;
         height: auto;
-
     }
-    
-    
 
     .small-text {
         color: $color-black;
@@ -29,7 +26,6 @@
         font-size: $small-text-font-size;
         @include respond(phone) {
             margin-top: 40px;   
-
         }
     }
     
