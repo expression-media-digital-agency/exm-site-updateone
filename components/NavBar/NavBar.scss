@@ -5,6 +5,7 @@
 
 .navbar{
     background-color:  $color-white;
+    padding-top: 20px;
    .navbar-collapse{
         @include respond(phone) {
             height: 100vh;

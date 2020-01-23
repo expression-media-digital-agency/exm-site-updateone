@@ -10,7 +10,7 @@
         text-align: center;   
 
     }
-    @include respond(tab-port) {
+    @include respond(tab-land) {
         text-align: center;   
 
     }
