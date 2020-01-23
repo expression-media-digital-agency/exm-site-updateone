@@ -38,6 +38,14 @@ em adjsut based on the root px set by user in the browser
 		}
 	};
 
+	@if $breakpoint == tab-land-one {
+		@media (min-width: 56.25em) and (max-width: 75em) {
+			@content
+		}
+	};
+
+	
+
 	@if $breakpoint == big-desktop {
 		@media (min-width: 112.5em) {
 			@content

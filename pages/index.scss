@@ -10,23 +10,17 @@
     height: $header-height;
     background-color: $color-white;
     margin-top: $header-margin-top;
-    @include respond(phone) {
+    
+    @include respond(tab-land) {
         padding-top: 40px;
         padding-bottom: 40px;  
         margin-top: 50px;
+        margin-bottom: 100px;
+        height: auto;
 
-    } 
-    
-    .home-pics{
-        @include respond(phone) {
-            display: none;   
-
-        }  
-        @include respond(tab-port) {
-            display: none;   
-
-        }  
     }
+    
+    
 
     .small-text {
         color: $color-black;
@@ -76,12 +70,8 @@
 
     .header-img {
         padding-top: 10px;
-        @include respond(phone) {
-            padding-top:60px;
-
-        }
-        @include respond(tab-port) {
-            padding-top:60px;
+        @include respond(tab-land) {
+            padding-top:70px;
    
         }  
 
@@ -93,12 +83,9 @@
     padding-top: $section-padding;
     padding-bottom: $section-padding;
     background-color: $color-white;
-    @include respond(phone) {
-        margin-top: 300px;
-
-    }
-    @include respond(tab-port) {
-        margin-top: 160px;
+    
+    @include respond(tab-land) {
+        padding-top:50px;
 
     }  
     .heading-two {
@@ -109,7 +96,7 @@
         font-weight: $font-weight-500;
         font-size: $heading-two-font-size;
         line-height: 42px;
-        margin-bottom: 50px;
+        margin-bottom: 50px; 
         
     }
 
