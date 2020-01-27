@@ -7,7 +7,7 @@
     background-color:  $color-white;
     padding-top: 20px;
    .navbar-collapse{
-        @include respond(phone) {
+        @include respond(tab-port) {
             height: 100vh;
             padding-top: 100px;
             padding-bottom: 50px;
@@ -23,7 +23,7 @@
     .nav-item {
         margin-left: 10px;
         margin-right: 10px;
-        @include respond(phone) {
+        @include respond(tab-port) {
             margin-top: 10px;
             margin-bottom: 10px;
 
