@@ -16,7 +16,7 @@
         line-height: 96px;
         color: $color-black-1;
         margin: 0px;
-    @include respond(phone) {
+    @include respond(tab-port) {
         line-height: 86px;
         font-size: 70px;
            
@@ -31,7 +31,7 @@
         font-size: 30px;
         line-height: 36px;
         color: $color-black-1;
-        @include respond(phone) {
+        @include respond(tab-port) {
             margin-top:20px;
 
         }
@@ -46,8 +46,9 @@
     }
 
     .header-img{
-        @include respond(phone) {
+        @include respond(tab-port) {
             padding-top:60px;
+            text-align: center;
 
         }
     }
@@ -57,8 +58,8 @@
 
 .section-about{
     background-color: $color-white;
-    @include respond(phone) {
-        margin-top: 500px;
+    @include respond(tab-port) {
+        margin-top: 300px;
 
     }
     .contents{

@@ -9,21 +9,16 @@
     height: $header-height;
     background-color: $color-white;
     margin-top: $header-margin-top;
+    @include respond(tab-port) {
+        height: auto;
 
+    }
     .heading-one {
         font-style: normal;
         font-weight: normal;
         font-size: 60px;
         line-height: 72px;
         color: $color-blue;
-        @include respond(phone) {
-           margin-top: 80px;
-           font-size: 50px;
-           margin-bottom: 50px;
-           text-align: center;
-           line-height: 62px;
-    
-        }
 
         @include respond(tab-port) {
             margin-top: 80px;
@@ -42,7 +37,6 @@
         font-size: 24px;
         line-height: 29px;
         color: $color-black;
-
     }
 
     .heading-three {
