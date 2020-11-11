@@ -10,8 +10,8 @@ const NeedSolutionOne = () => (
             </div> */}
             <div className="col-sm-8">
                 <h3 className="heading-three">Hey there!</h3>
-                <h1  className="heading-one">Let’s create your next solution</h1>
-                <h2 className="heading-two">Let's discuss your next idea</h2>
+                <h1  className="heading-one">Let’s run your next campaign</h1>
+                <h2 className="heading-two">You will be glad we did.</h2>
                 <p className="paragraph-one mb-5">Click on the button below to get through to us.</p>
                 <Link href="/contact">
                     <a className="solution-btn hvr-grow-shadow">
