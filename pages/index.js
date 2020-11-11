@@ -21,11 +21,11 @@ const Index = () => <Layout>
        <div className="row">
         <div className="col-sm-12 col-lg-7">
             <h1 className="header-one animated fadeIn delay-1s">
-            We create quality Brand experience, and satisfaction.
+            Grow Your Digital Presence with ExMedia Digital.
             
             </h1>
  
-            <p className="small-text animated fadeIn delay-2s">Passion. Innovation. Creativity.</p>
+            <p className="small-text animated fadeIn delay-2s">Boost sales and increase profit.</p>
 
 
             <Link href="/contact">
