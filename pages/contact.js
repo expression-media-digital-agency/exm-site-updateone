@@ -24,10 +24,10 @@ const Academy = () => <Layout>
             <div className="col-sm-12 col-lg-2"></div>
             <div className="col-sm-12 col-lg-6">
                 <h1 className="heading-one animated fadeIn delay-2s">
-                Hi! It’s Ben again
+           
                 </h1>
                 <p className="paragraph-one animated fadeIn delay-3s">
-                Expression Media also called “ExM”, partners with businesses and organizations to assist them focus on the core of their businesses. 
+                Expression Media Digital Agency also called “ExMedia Digital”, partners with brands and businesss to market their products and services while they focus on the core of their work.. 
                 </p>
             </div>
 
