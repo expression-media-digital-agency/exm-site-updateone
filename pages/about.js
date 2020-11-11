@@ -22,7 +22,7 @@ const About = () => <Layout>
         
         <div className="col-sm-12 col-lg-8">
             <h3 className="heading-three animated fadeIn delay-1s">
-                Meet Ben & Anita
+               
             </h3>
             <h1 className="heading-one animated fadeIn delay-2s">
                 Get to know us
@@ -48,8 +48,8 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                    Digital Solutions respond to the diverse business needs with cutting-edge technologies that allow us to delve into the digital transformation of our customers, always focusing on the transformation of the business processes and specific needs.<br/><br/>
-                    Expression Media works to explore all the resources and digital trends that the market offers to develop your business through different IT solutions both cloud and on-premise: digitization of processes, web or mobile applications, collaborative environments and content management, among others.
+                    Are you looking for a dynamic team that can put your business or product in the spotlight, helping you reach the right audience and customers that will patronise the services you render? <br/><br/>
+                    Our dynamic team is composed of different complementary profiles, strategists, social media experts, marketing professionals, managers, creatives, all at the service of your company.
                 </p>
             </div>
             <div className="col-sm-1"></div>
@@ -60,8 +60,9 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                These digital solutions allow companies and businesses to continue advancing on the path to digital transformation hence giving voice and visibility to their business.<br/><br/>
-                Our dynamic team is composed of different complementary profiles, strategists, developers, managers, creatives, all at the service of your company and we make a point of establishing a real relationship of trust with our customers.
+                Our vision is to take the value our clients create, and put it out there in front of the people who need it. <br/><br/>
+We are in the business of marketing and promoting our clients' uniqueness, and this is enough reason for us to work every day, growing and getting more skilled at delivering our services.
+.
                 </p>
             </div>
             <div className="col-sm-1"></div>
@@ -81,8 +82,8 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                Are you looking for a dynamic team that can transform your business into a digital solution that will make your audience and customers patronise the services you render? Look no further, for Expression Media has got you covered.<br/><br/>
-                At Expression Media, we utilise technologies to create, develop and integrate effective tools to serve your business. Our team puts its expertise at your disposal and offers a quality service to guide you, accompany you and to realize your business projects on all digital media.
+                We make a point of establishing a real relationship of trust with our customers, building partnerships that are beneficial for our mutual growth, and providing necessary support every step of the implementation..<br/><br/>
+                At ExMedia Digital, we create and implement effective digital strategies to promote your brand or business, utilizing technologies that help us serve your business better. Our team puts its expertise at your disposal and offers a quality service to guide you, accompany you and to realize your business projects on all digital media..
                 </p>
             </div>
             <div className="col-sm-1"></div>
