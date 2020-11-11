@@ -30,7 +30,7 @@ const Index = () => <Layout>
 
             <Link href="/contact">
                 <a className="header-btn hvr-grow-shadow animated fadeInUp delay-3s" >
-                Hire Us!
+                Hire Us Now!
                 </a>
             </Link>
         </div>
@@ -51,22 +51,22 @@ const Index = () => <Layout>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/brand.svg" className="card-img-top" alt="branding picture"/>
                     <div className="card-body">
-                        <h3 className="card-title">Branding</h3>
-                        <p className="card-text">Our team makes your communication beautiful and intelligible. We clarify your message. We give meaning to your brand. We solve complex problems, but we do it with style and simplicity.</p>
+                        <h3 className="card-title">Digital Marketing Strategy</h3>
+                        <p className="card-text">We create a high performing and measurable digital marketing plan that aligns with your overall marketing goals, and  walk you through the implementation process.</p>
                     </div>
                 </div>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/marketing1.svg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h3 className="card-title">Digital Marketing</h3>
-                        <p className="card-text">We help you to implement a digital marketing strategy that adapts to your business, allowing you to connect and interact with your current and potential customers.</p>
+                        <h3 className="card-title">Social Media Management</h3>
+                        <p className="card-text">Our team of highly skilled and experienced social media managers will handle your social media accounts with the right amount of attention while you focus on running your business.</p>
                     </div>
                 </div>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/softdev1.svg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h3 className="card-title">Web Development</h3>
-                        <p className="card-text">Our team takes the time to draw the contours of your software to ensure ergonomics and a successful user experience. All these using the latest trends in software development.</p>
+                        <h3 className="card-title">Ads Campaign</h3>
+                        <p className="card-text">We put your business or brand in front of the right people, through carefully selected campaigns that connect you to the right audience and generate conversions.</p>
                     </div>
                 </div>
             </div>
@@ -87,19 +87,19 @@ const Index = () => <Layout>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/social-media 2.svg" className="img-fluid"/>
                 <p className="paragraph-one">
-                Social Media Marketing
+                Social Media Accounts <br> Management
                 </p>
             </div>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/seo 1.svg" className="img-fluid"/>
                 <p className="paragraph-one">
-                SEO Page Building
+                Content Marketing
                 </p>
             </div>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/analysis 1.svg" className="img-fluid"/>
                 <p className="paragraph-one">
-                Analytics & Tracking
+                Social Media Analytics
                 </p>
             </div>
 
@@ -108,13 +108,13 @@ const Index = () => <Layout>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/Web development 1.svg" className="img-fluid"/>
                 <p className="paragraph-one">
-                Web Design
+                Online Customer Representative
                 </p>
             </div>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/contentM.svg"  className="img-fluid"/>
                 <p className="paragraph-one">
-                Content Marketing
+                Copy Writing
                 </p>
             </div>
             <div className="col-sm-4 text-center">
