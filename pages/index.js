@@ -87,7 +87,7 @@ const Index = () => <Layout>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/social-media 2.svg" className="img-fluid"/>
                 <p className="paragraph-one">
-                Social Media Accounts <br> Management
+                    Social Media Accounts <br /> Management
                 </p>
             </div>
             <div className="col-sm-4 text-center">

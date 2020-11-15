@@ -16,7 +16,7 @@ const Footer = () =>  (
                                         <a className="footer-text">Home</a>
                                     </Link>
                                 </li>
-                             
+                                <li>
                                     <Link href="/about">
                                         <a className="footer-text">About Us</a>
                                     </Link>
