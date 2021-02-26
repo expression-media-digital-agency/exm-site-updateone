@@ -51,13 +51,13 @@ const Index = () => <Layout>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/brand.svg" className="card-img-top" alt="branding picture"/>
                     <div className="card-body">
-                        <h3 className="card-title">Startup Experts</h3>
+                        <h3 className="card-title">Startups</h3>
                         <p className="card-text">We are a highly dedicated and specialized team of digital marketers who focus on growing the revenue of Startups. We understand startups and how best to sell their products and services.</p></div>
                 </div>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/marketing1.svg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h3 className="card-title">Traditonal Marketers</h3>
+                        <h3 className="card-title">Traditonal</h3>
                         <p className="card-text">We are digital marketers who have a thorough understanding of traditional marketing across serveral cultures and regions. This makes us to have a mastery of the use of digital skills to achieve exponential results.</p>
                     </div>
                 </div>
