@@ -51,21 +51,21 @@ const Index = () => <Layout>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/brand.svg" className="card-img-top" alt="branding picture"/>
                     <div className="card-body">
-                        <h3 className="card-title">Social Media Audit</h3>
-                        <p className="card-text">We review your startup metrics to assess growth, opportunities, and what should be done to generate and multiply your sales online.</p></div>
+                        <h3 className="card-title">Startup Experts</h3>
+                        <p className="card-text">We are a highly dedicated and specialized team of digital marketers who focus on growing the revenue of Startups. We understand startups and how best to sell their products and services.</p></div>
                 </div>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/marketing1.svg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h3 className="card-title">Social Media Marketing</h3>
-                        <p className="card-text">Our team of highly skilled and experienced social media marketers will handle your social media accounts with cutting-edge professionalism to deliver the best results for your startup.</p>
+                        <h3 className="card-title">Traditonal Marketers</h3>
+                        <p className="card-text">We are digital marketers who have a thorough understanding of traditional marketing across serveral cultures and regions. This makes us to have a mastery of the use of digital skills to achieve exponential results.</p>
                     </div>
                 </div>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/softdev1.svg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h3 className="card-title">Ads Campaign</h3>
-                        <p className="card-text">We make your startup highly profitable through carefully created campaigns that connect you to the right audience and generate conversions.</p>
+                        <h3 className="card-title">Data-Driven</h3>
+                        <p className="card-text">Our workdone is data-inspired, and we make the most of metrics in multiplying sales online.</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ const Index = () => <Layout>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/analysis 1.svg" className="img-fluid"/>
                 <p className="paragraph-one">
-                Social Media Audit
+                Social Media Auditing
                 </p>
             </div>
 
