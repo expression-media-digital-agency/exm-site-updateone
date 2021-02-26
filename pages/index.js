@@ -52,7 +52,7 @@ const Index = () => <Layout>
                     <img src="/static/img/svg/brand.svg" className="card-img-top" alt="branding picture"/>
                     <div className="card-body">
                         <h3 className="card-title">Social Media Audit</h3>
-                        <p className="card-text">We review your startup metrics to assess growth, opportunities, and what should be done to generate and multiply your sales online.</div>
+                        <p className="card-text">We review your startup metrics to assess growth, opportunities, and what should be done to generate and multiply your sales online.</p></div>
                 </div>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/marketing1.svg" className="card-img-top" alt="..."/>
