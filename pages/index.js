@@ -25,7 +25,7 @@ const Index = () => <Layout>
             
             </h1>
  
-            <p className="small-text animated fadeIn delay-2s">WE ARE THE BEST AT WHAT WE DO!</p>
+            <p className="small-text animated fadeIn delay-2s">...Generate and Multiply Online Sales.</p>
 
 
             <Link href="/contact">
