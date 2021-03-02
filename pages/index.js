@@ -25,7 +25,7 @@ const Index = () => <Layout>
             
             </h1>
  
-            <p className="small-text animated fadeIn delay-2s">...Generate and Multiply Online Sales.</p>
+            <p className="small-text animated fadeIn delay-2s">...Multiply sales with Social Media Marketing</p>
 
 
             <Link href="/contact">
@@ -52,20 +52,20 @@ const Index = () => <Layout>
                     <img src="/static/img/svg/brand.svg" className="card-img-top" alt="branding picture"/>
                     <div className="card-body">
                         <h3 className="card-title">Startups</h3>
-                        <p className="card-text">We are a highly dedicated and specialized team of digital marketers who focus on growing the revenue of Startups. We understand startups and how best to sell their products and services.</p></div>
+                        <p className="card-text">We are a highly dedicated and specialized team of digital marketers who focus on growing the revenue of Startups. We understand your startup and know how best to market your products and services.</p></div>
                 </div>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/marketing1.svg" className="card-img-top" alt="..."/>
                     <div className="card-body">
-                        <h3 className="card-title">Traditonal</h3>
-                        <p className="card-text">We are digital marketers who have a thorough understanding of traditional marketing across serveral cultures and regions. This makes us to have a mastery of the use of digital skills to achieve exponential results.</p>
+                        <h3 className="card-title">Traditional</h3>
+                        <p className="card-text">We have a thorough understanding of traditional marketing across serveral cultures and regions. This makes us to have a mastery of the use of digital skills to achieve exponential results.</p>
                     </div>
                 </div>
                 <div className="card hvr-grow">
                     <img src="/static/img/svg/softdev1.svg" className="card-img-top" alt="..."/>
                     <div className="card-body">
                         <h3 className="card-title">Data-Driven</h3>
-                        <p className="card-text">Our workdone is data-inspired, and we make the most of metrics in multiplying sales online.</p>
+                        <p className="card-text">Our work is data-inspired, and we make the most of metrics in growing your startup revenue.</p>
                     </div>
                 </div>
             </div>
@@ -98,7 +98,7 @@ const Index = () => <Layout>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/analysis 1.svg" className="img-fluid"/>
                 <p className="paragraph-one">
-                Social Media Auditing
+                Social Media Audit
                 </p>
             </div>
 
