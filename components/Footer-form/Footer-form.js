@@ -4,7 +4,7 @@ import './FooterForm.scss'
 
 const FooterForm = () =>  (
         <div>
-            <form className="footer-form" method="POST" action="https://formspree.io/exmdigitalagency@gmail.com">
+            <form className="footer-form" method="POST" action="https://formspree.io/f/xqkgvnbg">
                 <div className="form-group">
                     <input type="email" className="form-control input" id="email" placeholder="Your email..."/>
                 </div>
