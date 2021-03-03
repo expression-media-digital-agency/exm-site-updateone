@@ -9,7 +9,7 @@ const FooterForm = () =>  (
                     <input type="email" className="form-control input" id="email" placeholder="Your email..."/>
                 </div>
                 <div className="form-group">
-                <textarea className="form-control textarea" id="message" rows="5" placeholder="Your message here..."></textarea>
+                <textarea className="form-control textarea" name="message" rows="5" placeholder="Your message here..."></textarea>
                 </div>
                 <div className="float-right">
                     <button type="submit" className="btn btn-footer hvr-grow-shadow">Send</button>
