@@ -24,7 +24,7 @@ const ContactForm = () => (
                             </li>
                         </div>
                         <div className="col-sm-12 col-md-12 col-lg-7 form-right-side">
-                            <form method="POST" action="https://formspree.io/exmdigitalagency@gmail.com">
+                            <form method="POST" action="https://formspree.io/f/xqkgvnbg">
                                 <div className="form-row">
                                     <div className="form-group col-md-12">
                                         <input name="name"  type="text" className="form-control" id="name"
