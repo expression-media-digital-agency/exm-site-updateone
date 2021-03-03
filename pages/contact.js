@@ -19,16 +19,16 @@ const Academy = () => <Layout>
     <div className="container">
        <div className="row">
             <div className=" col-sm-12 col-lg-4 center-pics">
-                <img src="/static/img/svg/ben1.svg" alt="ben-anita picture" className="img-fluid animated fadeIn delay-1s"/>
+//                 <img src="/static/img/svg/ben1.svg" alt="ben-anita picture" className="img-fluid animated fadeIn delay-1s"/>
             </div>
             <div className="col-sm-12 col-lg-2"></div>
             <div className="col-sm-12 col-lg-6">
                 <h1 className="heading-one animated fadeIn delay-2s">
            
                 </h1>
-                <p className="paragraph-one animated fadeIn delay-3s">
-                Expression Media Digital Agency also called “ExMedia Digital”, partners with brands and businesss to market their products and services while they focus on the core of their work.. 
-                </p>
+//                 <p className="paragraph-one animated fadeIn delay-3s">
+//                 Expression Media Digital Agency also called “ExMedia Digital”, partners with brands and businesss to market their products and services while they focus on the core of their work.. 
+//                 </p>
             </div>
 
 
