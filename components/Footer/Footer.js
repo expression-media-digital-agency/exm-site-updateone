@@ -50,7 +50,7 @@ const Footer = () =>  (
                         <div className="col-sm-2"></div>
 
                         <div className="col-sm-4">
-                            <h3 className="footer-heading">Join our Mailing List for Special Offers and Discounts.</h3>
+                            <h3 className="footer-heading">Do you want our Special Offers?</h3>
                             <FooterForm/>
                         </div>
                     </div>
