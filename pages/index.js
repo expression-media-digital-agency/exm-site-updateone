@@ -26,7 +26,7 @@ const Index = () => <Layout>
             
             </h1>
  
-            <p className="small-text animated fadeIn delay-2s">Multiply sales with Social Media Marketing</p>
+            <p className="small-text animated fadeIn delay-2s">Multiply sales Online with Digital Marketing</p>
 
 
             <Link href="/contact">
@@ -93,7 +93,7 @@ const Index = () => <Layout>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/seo 1.svg" className="img-fluid"/>
                 <p className="paragraph-one">
-                Content Marketing
+                Email Marketing
                 </p>
             </div>
             <div className="col-sm-4 text-center">
@@ -108,7 +108,7 @@ const Index = () => <Layout>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/Web development 1.svg" className="img-fluid"/>
                 <p className="paragraph-one">
-                Online Customer Representative
+                Display Advertising
                 </p>
             </div>
             <div className="col-sm-4 text-center">
