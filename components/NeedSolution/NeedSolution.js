@@ -9,13 +9,13 @@ const NeedSolution = () => (
                 <img src="/static/img/svg/anita.svg" alt="anita picture" className="img-fluid"/>
             </div> */}
             <div className="col-sm-8">
-                <h3 className="heading-three">Hello there! </h3> {/* Hi! I’m Anita.</h3> */}
-                <h1  className="heading-one">Need to Grow Your Startup Revenue?</h1>
-                <h2 className="heading-two">Let's get started now.</h2>
-                <p className="paragraph-one mb-5">Our team of marketers are ready to achieve your goals, just a click away to get started.</p>
+                <h3 className="heading-three"></h3> {/* Hi! I’m Anita.</h3> */}
+                <h1  className="heading-one">Do you want to discuss your Startup Digital Marketing?</h1>
+                <h2 className="heading-two">Get Started right away!</h2>
+                <p className="paragraph-one mb-5">We are ready to help you achieve your revenue goals online</p>
                 <Link href="/contact">
                     <a className="solution-btn hvr-grow-shadow">
-                        Hire Us Now!
+                        Send Message
                     </a>
                 </Link>
             </div>
