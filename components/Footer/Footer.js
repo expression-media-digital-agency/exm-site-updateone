@@ -50,13 +50,13 @@ const Footer = () =>  (
                         <div className="col-sm-2"></div>
 
                         <div className="col-sm-4">
-                            <h3 className="footer-heading">We would love to hear from you</h3>
+                            <h3 className="footer-heading">Join our Mailing List for Special Offers and Discounts.</h3>
                             <FooterForm/>
                         </div>
                     </div>
                     <div className="row">
                         <div className="col-sm-12 text-center copyright">
-                            <p className="footer-text ">Copyright 2020 (c) Expression Media Digital Agency</p>
+                            <p className="footer-text ">Copyright 2021 (c) Expression Media Digital Agency</p>
                         </div>
                     </div>
                 </div>
