@@ -7,7 +7,7 @@ import 'normalize.css'
 
 const Index = () => <Layout>
 <Head>
-    <title>EXM | Home</title>
+    <title>ExMedia Digital | Best of Digital Marketing</title>
     <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport"/>
         <meta name="google-site-verification" content="kmbrx57bxpG7mnv9qSUcjLAbULlGQwDRthw8Zid_gyY" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossOrigin="anonymous"></link>
