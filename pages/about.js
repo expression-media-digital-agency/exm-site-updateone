@@ -28,10 +28,10 @@ const About = () => <Layout>
                
             </h3>
             <h1 className="heading-one animated fadeIn delay-2s">
-                Get to know us
+                Get to Know Us
             </h1>
            <p className="paragraph-one animated fadeIn delay-3s">
-                Your success becomes our story
+                Your Startup Growth becomes Our Story
            </p>
         </div>
 
@@ -51,8 +51,9 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                    Are you looking for a dynamic team that can put your business or product in the spotlight, helping you reach the right audience and customers that will patronise the services you render? <br/><br/>
-                    Our dynamic team is composed of different complementary profiles, strategists, social media experts, marketing professionals, managers, creatives, all at the service of your company.
+                    Our vision is to help build profitable startups across Africa, though data-driven Marketing.<br/><br/>
+                    We are focused on making startups profitable, by helping startups generate and multiply sales online. <br/>
+                    We are committed to help startups overcome the challenge of getting adequate sales for their products and services.
                 </p>
             </div>
             <div className="col-sm-1"></div>
@@ -63,9 +64,9 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                Our vision is to take the value our clients create, and put it out there in front of the people who need it. <br/><br/>
-We are in the business of marketing and promoting our clients' uniqueness, and this is enough reason for us to work every day, growing and getting more skilled at delivering our services.
-.
+                Our goal is simple: to make your startup goals become a reality.<br/><br/>      
+                We want to partner with you to birth the vision for your startup.<br/>
+                We are committed to going all the way with you to help you achieve your revenue targets in record time. While you are focused on building your products and services, We are focused on getting clients and customers for your products and services.
                 </p>
             </div>
             <div className="col-sm-1"></div>
@@ -85,8 +86,10 @@ We are in the business of marketing and promoting our clients' uniqueness, and t
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                We make a point of establishing a real relationship of trust with our customers, building partnerships that are beneficial for our mutual growth, and providing necessary support every step of the implementation..<br/><br/>
-                At ExMedia Digital, we create and implement effective digital strategies to promote your brand or business, utilizing technologies that help us serve your business better. Our team puts its expertise at your disposal and offers a quality service to guide you, accompany you and to realize your business projects on all digital media..
+                We are marketing experts that will help your Startup to generate & multiply sales for your products and services. Our Team will help you to get better results with your current marketing budget.<br/><br/>
+
+                Our Creative team will deliver all those to you and more. Our team of marketing experts is made up of Strategists, Display Ads professionals, Social Media Auditors, Social Media Marketers, Visual experts, 
+                    Ads Campaign Designers, Content Writers, and much more.
                 </p>
             </div>
             <div className="col-sm-1"></div>
