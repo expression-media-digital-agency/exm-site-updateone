@@ -10,7 +10,7 @@ const NeedSolutionOne = () => (
             </div> */}
             <div className="col-sm-8">
                 <h3 className="heading-three"></h3>
-                <h1  className="heading-one">We would like to build your Startup with you.</h1>
+                <h1  className="heading-one">We would like to grow your Startup with you.</h1>
                 <h2 className="heading-two">You will be glad we did.</h2>
                 <p className="paragraph-one mb-5">Click on the button below to get through to us.</p>
                 <Link href="/contact">
