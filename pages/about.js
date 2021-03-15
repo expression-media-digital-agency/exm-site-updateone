@@ -53,7 +53,7 @@ const About = () => <Layout>
                 <p className="paragraph-one">
                     Our vision is to help build profitable startups, though data-driven Marketing.<br/><br/>
                     Our focus is to make startups profitable, by helping startups generate and multiply sales online. <br/>
-                    Our commitment to help startups overcome the challenge of getting adequate sales for their products and services.
+                    Our commitment is to help startups overcome the challenge of getting adequate sales for their products and services.
                 </p>
             </div>
             <div className="col-sm-1"></div>
