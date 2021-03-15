@@ -51,9 +51,9 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                    Our vision is to help build profitable startups across Africa, though data-driven Marketing.<br/><br/>
-                    We are focused on making startups profitable, by helping startups generate and multiply sales online. <br/>
-                    We are committed to help startups overcome the challenge of getting adequate sales for their products and services.
+                    Our vision is to help build profitable startups, though data-driven Marketing.<br/><br/>
+                    Our focus is to make startups profitable, by helping startups generate and multiply sales online. <br/>
+                    Our commitment to help startups overcome the challenge of getting adequate sales for their products and services.
                 </p>
             </div>
             <div className="col-sm-1"></div>
@@ -65,8 +65,8 @@ const About = () => <Layout>
             <div className="col-sm-5">
                 <p className="paragraph-one">
                 Our goal is simple: to make your startup goals become a reality.<br/><br/>      
-                We want to partner with you to birth the vision for your startup.<br/>
-                We are committed to going all the way with you to help you achieve your revenue targets in record time. While you are focused on building your products and services, We are focused on getting clients and customers for your products and services.
+                We want to partner with you to grow the vision for your startup.<br/>
+                We are committed to going all the way with you to help you meet your revenue targets in record time. While you are engaged with designing and building your products and services, we are working with you to creatively and efectively market them. .
                 </p>
             </div>
             <div className="col-sm-1"></div>
@@ -86,9 +86,9 @@ const About = () => <Layout>
             <div className="col-sm-1"></div>
             <div className="col-sm-5">
                 <p className="paragraph-one">
-                We are marketing experts that will help your Startup to generate & multiply sales for your products and services. Our Team will help you to get better results with your current marketing budget.<br/><br/>
+                We are a team of marketing experts that will help your Startup to generate & multiply sales for your products and services. Our Team will help you get better results with your current marketing budget.<br/><br/>
 
-                Our Creative team will deliver all those to you and more. Our team of marketing experts is made up of Strategists, Display Ads professionals, Social Media Auditors, Social Media Marketers, Visual experts, 
+                Our team of marketing experts is made up of Strategists, Display Ads professionals, Social Media Auditors, Social Media Marketers, Visual experts, 
                     Ads Campaign Designers, Content Writers, and much more.
                 </p>
             </div>
