@@ -29,7 +29,7 @@ const Index = () => <Layout>
             
             </h1>
  
-            <p className="small-text animated fadeIn delay-2s">Multiply sales Online with Digital Marketing</p>
+            <p className="small-text animated fadeIn delay-2s">Multiply Sales Online with Data-Driven Marketing</p>
 
 
             <Link href="/contact">
