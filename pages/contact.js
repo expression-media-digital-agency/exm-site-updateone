@@ -31,7 +31,9 @@ const Academy = () => <Layout>
            
                 </h1>
                 <p className="paragraph-one animated fadeIn delay-3s">
-                Get Across to ExMedia Digital. 
+                    Hi there!<br/>
+                    We would like to hear from you.<br/>
+                    Send us a Message now.
                 </p>
             </div>
 
