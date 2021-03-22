@@ -117,7 +117,7 @@ const Index = () => <Layout>
             <div className="col-sm-4 text-center">
                 <img src="/static/img/svg/contentM.svg"  className="img-fluid"/>
                 <p className="paragraph-one">
-                Social Media Strategy
+                Digital Marketing Strategy
                 </p>
             </div>
             <div className="col-sm-4 text-center">
