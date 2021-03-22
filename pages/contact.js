@@ -19,6 +19,27 @@ const Academy = () => <Layout>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossOrigin="anonymous"></script>
 </Head>
 
+<header className="contact-header">
+    <div className="container">
+       <div className="row">
+            <div className=" col-sm-12 col-lg-4 center-pics">
+                <img src="/static/img/svg/ben1.svg" alt="ben-anita picture" className="img-fluid animated fadeIn delay-1s"/>
+            </div>
+            <div className="col-sm-12 col-lg-2"></div>
+            <div className="col-sm-12 col-lg-6">
+                <h1 className="heading-one animated fadeIn delay-2s">
+           
+                </h1>
+                <p className="paragraph-one animated fadeIn delay-3s">
+                Get Across to ExMedia Digital. 
+                </p>
+            </div>
+
+
+       </div>
+    </div> 
+</header>
+
     <ContactForm/>
 </Layout>;
 
