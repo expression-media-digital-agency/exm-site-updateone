@@ -8,6 +8,7 @@ import 'normalize.css'
 const Index = () => <Layout>
 <Head>
     <title>ExMedia Digital | Best of Digital Marketing</title>
+    <meta name="facebook-domain-verification" content="1hwsc7wgie2zrcgqpb0ycvu2g4uxcb" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" key="viewport"/>
         <meta name="google-site-verification" content="kmbrx57bxpG7mnv9qSUcjLAbULlGQwDRthw8Zid_gyY" />
             <meta name="description" content="Digital Marketing for Startups" />
